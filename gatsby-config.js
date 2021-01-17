@@ -7,7 +7,6 @@ module.exports = {
     keywords: config.keywords,
     baseUrl: config.baseUrl,
     lang: config.lang,
-    facebookUsername: config.facebookUsername,
     twitterUsername: config.twitterUsername,
   },
   plugins: [

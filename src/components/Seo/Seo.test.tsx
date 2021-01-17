@@ -10,7 +10,6 @@ const siteMetadata = {
   keywords: ['some', 'keywords'],
   baseUrl: '',
   lang: 'en',
-  facebookUsername: '',
   twitterUsername: '',
 }
 
