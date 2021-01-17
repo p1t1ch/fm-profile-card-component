@@ -1,0 +1,16 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs/blocks'
+import Seo from '.'
+
+<Meta title="Seo" component={Seo} />
+
+# Seo
+
+<Canvas>
+  <Story name="Basic" args={{ title: 'Page name' }}>
+    {args => <Seo {...args} />}
+  </Story>
+</Canvas>
+
+SEO wrapper
+
+<ArgsTable story="." />
