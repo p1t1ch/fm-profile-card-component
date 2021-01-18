@@ -4,9 +4,9 @@ import Seo from '@/components/Seo'
 
 const NotFoundPage = ({ location }: PageProps) => {
   return (
-    <div>
+    <div className="p-4">
       <Seo />
-      <h1 css={{ textAlign: 'center' }}>Error 404</h1>
+      <h1 className="text-center text-xl">Error 404</h1>
       <p>Path &ldquo;{location.pathname}&rdquo; is not defined</p>
     </div>
   )

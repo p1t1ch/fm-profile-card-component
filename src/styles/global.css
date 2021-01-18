@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Manrope';
+    src: url('/fonts/Manrope.woff2') format('woff2-variations');
+    font-display: swap;
+    font-weight: 200 800;
+  }
+
+  html {
+    @apply scroll-behaviour-smooth;
+  }
+
+  body {
+    @apply bg-white text-black;
+  }
+}
+
+@layer utilities {
+  .scroll-behaviour-smooth {
+    scroll-behavior: smooth;
+  }
+}

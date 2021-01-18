@@ -1,10 +1,8 @@
 import React from 'react'
 import { ApolloProvider } from '@apollo/client'
 import { MockedProvider, MockedResponse } from '@apollo/client/testing'
-import { ThemeProvider } from 'emotion-theming'
-import GlobalStyles from '@/components/GlobalStyles'
 import client from '@/utils/apollo'
-import theme from '@theme'
+import 'focus-visible'
 
 interface RootWrapperProps {
   /** Site content */
@@ -18,10 +16,7 @@ const RootWrapper = ({ children, apolloMocks }: RootWrapperProps) => {
 
   return (
     <ApolloWrapper client={client} mocks={apolloMocks} addTypename={!apolloMocks}>
-      <ThemeProvider theme={theme}>
-        <GlobalStyles />
-        {children}
-      </ThemeProvider>
+      <>{children}</>
     </ApolloWrapper>
   )
 }
