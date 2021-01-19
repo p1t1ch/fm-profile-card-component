@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    @apply scroll-behaviour-smooth;
+    @apply scroll-behaviour-smooth bg-primary-light;
   }
 }
 

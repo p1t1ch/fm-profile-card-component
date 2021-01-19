@@ -7,7 +7,7 @@ import imageVictor from '@/images/image-victor.jpg'
 
 function IndexPage() {
   return (
-    <main className="relative grid place-items-center overflow-hidden min-h-screen py-36 px-6 bg-primary-light">
+    <main className="relative grid place-items-center overflow-hidden min-h-screen p-6 bg-primary-light">
       <Seo title="Frontend Mentor: Profile card component" />
       <BgPatternTop className="absolute inset-1/2 transform translate-x-circle-x translate-y-circle-y" />
       <ProfileCard
