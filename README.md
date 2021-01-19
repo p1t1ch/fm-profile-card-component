@@ -11,4 +11,8 @@
   </a>
 </p>
 
-For this one I've setup the simple version of Gatsby starter and used Tailwind for the first time
+For this challenge:
+
+1. Setup light version of my Gatsby starter for simple HTML & CSS challenges
+1. Setup and used Tailwind for the first time
+1. Used fontsource for the first time
