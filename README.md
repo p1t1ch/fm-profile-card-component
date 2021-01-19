@@ -10,3 +10,5 @@
     />
   </a>
 </p>
+
+For this one I've setup the simple version of Gatsby starter and used Tailwind for the first time

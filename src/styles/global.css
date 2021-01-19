@@ -12,4 +12,12 @@
   .scroll-behaviour-smooth {
     scroll-behavior: smooth;
   }
+
+  .grid-area-container {
+    grid-template-areas: 'single';
+  }
+
+  .grid-area {
+    grid-area: single;
+  }
 }

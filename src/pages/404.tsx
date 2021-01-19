@@ -2,7 +2,7 @@ import React from 'react'
 import { PageProps } from 'gatsby'
 import Seo from '@/components/Seo'
 
-const NotFoundPage = ({ location }: PageProps) => {
+function NotFoundPage({ location }: PageProps) {
   return (
     <main>
       <Seo />
