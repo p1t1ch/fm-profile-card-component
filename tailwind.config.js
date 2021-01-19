@@ -31,6 +31,9 @@ module.exports = {
         'circle-x': '-103%',
         'circle-y': '-89%',
       },
+      letterSpacing: {
+        widest: '.15em',
+      },
     },
   },
   variants: {

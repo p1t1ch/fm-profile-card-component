@@ -35,8 +35,8 @@ function ProfileCard({
           className="grid-area transform translate-y-1/2 rounded-full border-5 border-white"
         />
       </section>
-      <section className="p-6 pt-18 text-center">
-        <div className="mb-2 text-lg">
+      <section className="p-6 pt-18 pb-5 text-center">
+        <div className="mb-1 text-lg">
           <h1 className="inline-block text-primary font-bold mr-2">{name}</h1>
           <span className="text-primary-dark">{age}</span>
         </div>
