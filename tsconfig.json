@@ -11,8 +11,6 @@
     "paths": {
       "@test-utils": ["test/test-utils.tsx"],
       "@/*": ["src/*"]
-    },
-    "types": ["node", "jest", "testing-library__jest-dom"]
-  },
-  "include": ["src", "test"]
+    }
+  }
 }

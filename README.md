@@ -1,6 +1,6 @@
-# Frontend Mentor
+# Frontend Mentor: Profile card component
 
-<p align="center"><strong align="center">My solutions for Frontend Mentor challenges</strong></p>
+<p align="center"><strong align="center">My solution for Frontend Mentor <a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ">Profile card component</a> challenge</strong></p>
 
 <p align="center">
   <a href="https://app.netlify.com/sites/frontend-mentor-p1t1ch/deploys">
@@ -9,10 +9,4 @@
       alt="Netlify Status"
     />
   </a>
-</p>
-
-<p align="center">
-  <strong><a href="https://frontend-mentor-p1t1ch.netlify.app">Demo</a></strong>
-  <br/>
-  <strong><a href="https://master--6004457f5f88f20021dd2486.chromatic.com">Storybook</a></strong>
 </p>

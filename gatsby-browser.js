@@ -1,5 +1,3 @@
-import React from 'react'
-import RootWrapper from '@/components/RootWrapper'
+import 'focus-visible'
+import '@fontsource/kumbh-sans'
 import '@/styles/global.css'
-
-export const wrapRootElement = ({ element }) => <RootWrapper>{element}</RootWrapper>

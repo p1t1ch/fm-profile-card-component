@@ -1,14 +1,14 @@
 const config = {
   // Project title. Used as SEO title and PWA name
-  title: 'Frontend Mentor',
+  title: 'Frontend Mentor: Profile card component',
   // Project short name. Used by PWA
-  shortTitle: 'Frontend Mentor',
+  shortTitle: 'FM Profile card component',
   // Project description. Used in SEO meta tag and by PWA
-  description: 'My solutions for Frontend Mentor challenges',
+  description: 'My solution for Frontend Mentor "Profile card component" challenge',
   // Keywords describing the project. Used in SEO meta tag
-  keywords: ['frontend', 'challenges', 'react', 'typescript', 'storybook'],
+  keywords: ['frontend', 'challenges', 'react'],
   // Absolute deployment path (without trailing slash). Used as base URL in SEO meta tags
-  baseUrl: 'https://frontend-mentor-p1t1ch.netlify.app',
+  baseUrl: 'https://p1t1ch-fm-profile-card-component.netlify.app',
   // Site language. Added in html tag and PWA manifest
   lang: 'en',
   // Your username on Twitter (without @). Used in SEO meta tags
@@ -16,9 +16,9 @@ const config = {
   // Path to main favicon. Recommended size: 512x512. Other sizes are generated automatically
   favicon: 'src/images/favicon.png',
   // Theme color. Used as color of device toolbar in supported browsers
-  themeColor: '#362066',
+  themeColor: '#19a1ae',
   // Background color. Used as background on PWA launch screen. Recommended to make it the same as body color
-  backgroundColor: '#362066',
+  backgroundColor: '#19a1ae',
 }
 
 module.exports = {

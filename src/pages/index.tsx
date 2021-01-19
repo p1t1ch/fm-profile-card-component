@@ -1,12 +1,13 @@
 import React from 'react'
 import Seo from '@/components/Seo'
+import ProfileCard from '@/components/ProfileCard'
 
 const IndexPage = () => {
   return (
-    <div className="p-4">
-      <Seo title="Frontend Mentor" />
-      <h1 className="text-center text-2xl">Frontend Mentor</h1>
-    </div>
+    <main>
+      <Seo title="Frontend Mentor: Profile card component" />
+      <ProfileCard />
+    </main>
   )
 }
 
