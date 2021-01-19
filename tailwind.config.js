@@ -15,6 +15,9 @@ module.exports = {
         },
         neutral: 'hsl(228, 9%, 92%)',
       },
+      fontSize: {
+        xs: '.625rem',
+      },
       maxWidth: {
         sm: '21.875rem',
       },
